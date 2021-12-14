@@ -114,12 +114,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | DOM manipulation to show the different matches from the users search results | H | 4hrs| 0hrs | 0hrs |
 | styling of team information from search results | H | 3hrs| 0hrs | 0hrs |
 | styling of player information from search results | L | 3hrs| 0hrs | 0hrs |
-| JS logic for best goals for each team | L | 3hrs| 0hrs | 0hrs |
-| DOM output to page from JS effectiveness logic | L | 4hrs| 0hrs | 0hrs |
+| JS logic for best goals for each team | L | 4hrs| 0hrs | 0hrs |
 | CSS styling for the video clips | L | 6hrs| 0hrs | 0hrs |
 | Create the ability to save favorite team | L | 4hrs| 0hrs | 0hrs |
 | CSS style of the save feature | L | 3hrs| 0hrs | 0hrs |
-| Total | H | 44hrs| 0hrs | 0hrs |
+| Total | H | 41hrs| 0hrs | 0hrs |
 
 ## Code Snippet
 
