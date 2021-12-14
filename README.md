@@ -6,7 +6,7 @@
 
 ## Project Description
 
-Gives information on which teams scored and how well each team did in the 2018 world cup.
+Allows user to search match days to find all world cup games on thhat day. Lets user look atr specific teams and see their stats for each game. User can also find the different players and show their stats. 
 
 ## API and Data Sample
 [World Cup](https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json)
