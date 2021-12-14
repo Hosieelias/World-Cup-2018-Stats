@@ -2,14 +2,14 @@
 
 ## Project Name
 
-[World Cup 2018 Stats]()
+[World Cup 2018 Stats](https://github.com/Hosieelias/World-Cup-2018-Stats.git)
 
 ## Project Description
 
 Gives information on which teams scored and how well each team did in the 2018 world cup.
 
 ## API and Data Sample
-[World Cup] (https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json)
+[World Cup](https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json)
 
 ```Json 
 {
