@@ -58,7 +58,8 @@ Gives information on which teams scored and how well each team did in the 2018 w
  ```
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+[wireframe for phone](![Page_1_Copy](https://user-images.githubusercontent.com/94047631/145935563-b71eefd3-d558-4b69-b57f-dea2ba97d31f.png)
+
 
 ### MVP/PostMVP
 
