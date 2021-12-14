@@ -99,15 +99,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Dec 17| Presentations | Incomplete
 
 ## Priority Matrix
-
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+[matrix](https://app.conceptboard.com/board/hxrp-f74q-9ys5-fp3x-ambo)
 
 ## Timeframes
 
  Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Basic HTML, CSS, JS setup | M | 2hrs| 0hrs | 0hrs |
-| HTML page setup | M | 2hrs| 0hrs | 0hrs |
+| Basic HTML, CSS, JS setup | M | 3hrs| 0hrs | 0hrs |
 | Setting up API function | H | 2hrs| 0hrs | 0hrs |
 | Incorporating the user input and API call | H | 2hrs| 0hrs | 0hrs |
 | Debugging of the user input/API call | H | 1hrs| 0hrs | 0hrs |
@@ -121,7 +119,7 @@ Include a full list of features that have been prioritized based on the `Time an
 | CSS styling for the video clips | L | 6hrs| 0hrs | 0hrs |
 | Create the ability to save favorite team | L | 4hrs| 0hrs | 0hrs |
 | CSS style of the save feature | L | 3hrs| 0hrs | 0hrs |
-| Total | H | 45hrs| 0hrs | 0hrs |
+| Total | H | 44hrs| 0hrs | 0hrs |
 
 ## Code Snippet
 
