@@ -58,7 +58,7 @@ Gives information on which teams scored and how well each team did in the 2018 w
  ```
 ## Wireframes
 
-[wireframe for phone](![Page_1_Copy](https://user-images.githubusercontent.com/94047631/145935563-b71eefd3-d558-4b69-b57f-dea2ba97d31f.png)
+[wireframe for phone](https://user-images.githubusercontent.com/94047631/145935563-b71eefd3-d558-4b69-b57f-dea2ba97d31f.png)
 
 
 ### MVP/PostMVP
