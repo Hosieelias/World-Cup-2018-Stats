@@ -9,8 +9,10 @@ World Cup
 Gives information on which teams scored and how well each team did in the 2018 world cup.
 
 ## API and Data Sample
-https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json
+[World Cup 2018] (https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json)
 
+```Json 
+{
 "name": "Matchday 3",
             "matches": [
                 {
@@ -178,7 +180,8 @@ https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcu
                 }
             ]
         },
-        {
+	}
+        ```
 ## Wireframes
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
