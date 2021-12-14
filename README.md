@@ -58,25 +58,29 @@ Gives information on which teams scored and how well each team did in the 2018 w
  ```
 ## Wireframes
 
-[wireframe for phone](https://user-images.githubusercontent.com/94047631/145935563-b71eefd3-d558-4b69-b57f-dea2ba97d31f.png)
+[wireframe for web](https://user-images.githubusercontent.com/94047631/145935563-b71eefd3-d558-4b69-b57f-dea2ba97d31f.png)
+[wireframe for phone](https://user-images.githubusercontent.com/94047631/145935820-1cff8e7c-23f2-4b8d-90d7-1d7b563be338.png)
 
 
 ### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP 
-*These are examples only. Replace with your own MVP features.*
+#### MVP
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Take user input from search bar and get specific match day
+- call and use information from the api
+- Show the user the games of the match day they chose and the scores
+- shows the stats of the game the user selects
+- responsive CSS
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Allow for more in-depth stats on teams performances
+- Use local storage to save users favorite teams
+- Allow for another page with player stats
+- add images of all teams 
+- add best goal clip for each team
 
 ## Project Schedule
 
@@ -100,15 +104,24 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
+ Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Basic HTML, CSS, JS setup | M | 2hrs| 0hrs | 0hrs |
+| HTML page setup | M | 2hrs| 0hrs | 0hrs |
+| Setting up API function | H | 2hrs| 0hrs | 0hrs |
+| Incorporating the user input and API call | H | 2hrs| 0hrs | 0hrs |
+| Debugging of the user input/API call | H | 1hrs| 0hrs | 0hrs |
+| Style header and search bar | L | 3hrs| 0hrs | 0hrs |
+| Pulling data and creating variables from API | H | 3hrs| 0hrs | 0hrs |
+| DOM manipulation to show the different matches from the users search results | H | 4hrs| 0hrs | 0hrs |
+| styling of team information from search results | H | 3hrs| 0hrs | 0hrs |
+| styling of player information from search results | L | 3hrs| 0hrs | 0hrs |
+| JS logic for best goals for each team | L | 3hrs| 0hrs | 0hrs |
+| DOM output to page from JS effectiveness logic | L | 4hrs| 0hrs | 0hrs |
+| CSS styling for the video clips | L | 6hrs| 0hrs | 0hrs |
+| Create the ability to save favorite team | L | 4hrs| 0hrs | 0hrs |
+| CSS style of the save feature | L | 3hrs| 0hrs | 0hrs |
+| Total | H | 45hrs| 0hrs | 0hrs |
 
 ## Code Snippet
 
