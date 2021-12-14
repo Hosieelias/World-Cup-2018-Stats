@@ -2,16 +2,183 @@
 
 ## Project Name
 
-The name of your project.
+World Cup
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Gives information on which teams scored and how well each team did in the 2018 world cup.
 
 ## API and Data Sample
+https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
-
+"name": "Matchday 3",
+            "matches": [
+                {
+                    "num": 5,
+                    "date": "2018-06-16",
+                    "time": "13:00",
+                    "team1": {
+                        "name": "France",
+                        "code": "FRA"
+                    },
+                    "team2": {
+                        "name": "Australia",
+                        "code": "AUS"
+                    },
+                    "score1": 2,
+                    "score2": 1,
+                    "score1i": 0,
+                    "score2i": 0,
+                    "goals1": [
+                        {
+                            "name": "Griezmann",
+                            "minute": 58,
+                            "score1": 1,
+                            "score2": 0,
+                            "penalty": true
+                        },
+                        {
+                            "name": "Behich",
+                            "minute": 81,
+                            "score1": 2,
+                            "score2": 1,
+                            "owngoal": true
+                        }
+                    ],
+                    "goals2": [
+                        {
+                            "name": "Jedinak",
+                            "minute": 62,
+                            "score1": 1,
+                            "score2": 1,
+                            "penalty": true
+                        }
+                    ],
+                    "group": "Group C",
+                    "stadium": {
+                        "key": "kazan",
+                        "name": "Kazan Arena"
+                    },
+                    "city": "Kazan",
+                    "timezone": "UTC+3"
+                },
+                {
+                    "num": 6,
+                    "date": "2018-06-16",
+                    "time": "19:00",
+                    "team1": {
+                        "name": "Peru",
+                        "code": "PER"
+                    },
+                    "team2": {
+                        "name": "Denmark",
+                        "code": "DEN"
+                    },
+                    "score1": 0,
+                    "score2": 1,
+                    "score1i": 0,
+                    "score2i": 0,
+                    "goals1": [],
+                    "goals2": [
+                        {
+                            "name": "Poulsen",
+                            "minute": 59,
+                            "score1": 0,
+                            "score2": 1
+                        }
+                    ],
+                    "group": "Group C",
+                    "stadium": {
+                        "key": "mordovia",
+                        "name": "Mordovia Arena"
+                    },
+                    "city": "Saransk",
+                    "timezone": "UTC+3"
+                },
+                {
+                    "num": 7,
+                    "date": "2018-06-16",
+                    "time": "16:00",
+                    "team1": {
+                        "name": "Argentina",
+                        "code": "ARG"
+                    },
+                    "team2": {
+                        "name": "Iceland",
+                        "code": "ISL"
+                    },
+                    "score1": 1,
+                    "score2": 1,
+                    "score1i": 1,
+                    "score2i": 1,
+                    "goals1": [
+                        {
+                            "name": "Agüero",
+                            "minute": 19,
+                            "score1": 1,
+                            "score2": 0
+                        }
+                    ],
+                    "goals2": [
+                        {
+                            "name": "Finnbogason",
+                            "minute": 23,
+                            "score1": 1,
+                            "score2": 1
+                        }
+                    ],
+                    "group": "Group D",
+                    "stadium": {
+                        "key": "spartak",
+                        "name": "Spartak Stadium"
+                    },
+                    "city": "Moscow",
+                    "timezone": "UTC+3"
+                },
+                {
+                    "num": 8,
+                    "date": "2018-06-16",
+                    "time": "21:00",
+                    "team1": {
+                        "name": "Croatia",
+                        "code": "CRO"
+                    },
+                    "team2": {
+                        "name": "Nigeria",
+                        "code": "NGA"
+                    },
+                    "score1": 2,
+                    "score2": 0,
+                    "score1i": 1,
+                    "score2i": 0,
+                    "goals1": [
+                        {
+                            "name": "Etebo",
+                            "minute": 32,
+                            "score1": 1,
+                            "score2": 0,
+                            "owngoal": true
+                        },
+                        {
+                            "name": "Modrić",
+                            "minute": 71,
+                            "score1": 2,
+                            "score2": 0,
+                            "penalty": true
+                        }
+                    ],
+                    "goals2": [],
+                    "group": "Group D",
+                    "stadium": {
+                        "key": "kaliningrad",
+                        "name": "Kaliningrad Stadium"
+                    },
+                    "city": "Kaliningrad",
+                    "timezone": "UTC+2"
+                }
+            ]
+        },
+        {
 ## Wireframes
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
