@@ -99,7 +99,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Dec 17| Presentations | Incomplete
 
 ## Priority Matrix
-[matrix](https://app.conceptboard.com/board/hxrp-f74q-9ys5-fp3x-ambo)
+[matrix](https://app.conceptboard.com/export/18c74c09-d339-4254-abc5-c20963612785/versions/;hi=0;low=144)
 
 ## Timeframes
 
