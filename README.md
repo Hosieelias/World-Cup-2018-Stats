@@ -2,59 +2,47 @@
 
 ## Project Name
 
-[World Cup 2018 Stats](https://github.com/Hosieelias/World-Cup-2018-Stats.git)
+[World Cup 2018 Stats]()
 
 ## Project Description
 
 Allows user to search match days to find all world cup games on thhat day. Lets user look atr specific teams and see their stats for each game. User can also find the different players and show their stats. 
 
 ## API and Data Sample
-[World Cup](https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json)
+[World Cup](https://world-cup-json-2018.herokuapp.com/matches)
 
 ```Json 
+"stage_name": "First stage",
+"home_team_country": "Russia",
+"away_team_country": "Saudi Arabia",
+"datetime": "2018-06-14T15:00:00Z",
+"winner": "Russia",
+"winner_code": "RUS",
+"home_team": {
+"country": "Russia",
+"code": "RUS",
+"goals": 5,
+"penalties": 0
+},
+"away_team": {
+"country": "Saudi Arabia",
+"code": "KSA",
+"goals": 0,
+"penalties": 0
+},
+"home_team_events": [
 {
-"name": "Matchday 3",
-            "matches": [
-                {
-                    "num": 5,
-                    "date": "2018-06-16",
-                    "time": "13:00",
-                    "team1": {
-                        "name": "France",
-                        "code": "FRA"
-                    },
-                    "team2": {
-                        "name": "Australia",
-                        "code": "AUS"
-                    },
-                    "score1": 2,
-                    "score2": 1,
-                    "score1i": 0,
-                    "score2i": 0,
-                    "goals1": [
-                        {
-                            "name": "Griezmann",
-                            "minute": 58,
-                            "score1": 1,
-                            "score2": 0,
-                            "penalty": true
-                        },
-                        {
-                            "name": "Behich",
-                            "minute": 81,
-                            "score1": 2,
-                            "score2": 1,
-                            "owngoal": true
-                        }
-                    ],
-                    "goals2": [
-                        {
-                            "name": "Jedinak",
-                            "minute": 62,
-                            "score1": 1,
-                            "score2": 1,
-                            "penalty": true
-                         }
+"id": 5,
+"type_of_event": "goal",
+"player": "Iury GAZINSKY",
+"time": "12'"
+},
+{
+"id": 1,
+"type_of_event": "substitution-in",
+"player": "Denis CHERYSHEV",
+"time": "24'"
+}
  ```
 ## Wireframes
 
