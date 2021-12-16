@@ -1,18 +1,28 @@
+const formF = document.querySelector("#form")
 
 
+const findTeam = async (input) => {
+    try {
+        const searchURL = `https://worldcup.sfg.io/matches/${input}/`
+        const response = await axios.get(searchURL)
+        matcheData(response)
 
-// const getTeams = () => {
-//     axios.get("https://worldcup.sfg.io/matches")
-// .then((response)=> {
-    
-//     let awayTeam = response.data[0].away_team;
-//     console.log(awayTeam)
-// })
-// }
-
-
-function matches(){
-    axios.get("https://world-cup-json-2018.herokuapp.com/matches")
-    .then(respond => console.log(respond.data)).catch(err => console.log(err))
+        return response
+    }catch (error){
+        console.log(error)
+    }
 }
-matches();
+const matchesDiv = document.querySelector("#matches");
+
+function matcheData(response){
+   teamObj = response
+   console.log(teamObj)
+   const gameInfo = document.createElement("div")
+   gameInfo.classList = "match-info"
+
+   const teamName = document.createElement("h2")
+   const day = document.createElement("p")
+   const  score = document.createElement("p")
+    
+
+}

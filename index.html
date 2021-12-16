@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css">
+     <script defer src="./script.js"></script>
     <title>World Cup 2018</title>
 </head>
+<header>
+     <h1>World Cup 2018</h1>
+</header>
 <body> 
-    <script defer src="./script.js"></script>
-    <h1>World Cup 2018</h1>
-    <input type="text" id="input1" placeholder="Enter name of team">
-    <button onclick="getTeams">Search</button>
+    <form id="Form">
+        <input type="text" id="input" onfocus=this.value="" placeholder="Search for a team">
+        <button id="searchBt">Search</button>
+      </form>
+   
     <div class="matches">
-        <p class="awayGoals"></p>
-        <p class="homeGoals"></p>
+        <p class="score"></p>
     </div>
 </body>
 </html>
