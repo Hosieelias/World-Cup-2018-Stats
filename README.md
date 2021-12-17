@@ -78,10 +78,10 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP
 
-- Take user input from search bar and get specific match day
+- Take user input from search bar and get matches for that day/round
 - call and use information from the api
 - Show the user the games of the match day they chose and the scores
-- shows the stats of the game the user selects
+- shows the stats of the game
 - responsive CSS
 
 #### PostMVP  
@@ -100,8 +100,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Dec 13| Project Approval | Incomplete
+|Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Completed
+|Dec 13| Project Approval | Completed
 |Dec 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Dec 14| Pseudocode / actual code | Incomplete
 |Dec 15| Initial Clickable Model  | Incomplete
@@ -116,19 +116,14 @@ You are **responsible** for scheduling time with your squad to seek approval for
  Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Basic HTML, CSS, JS setup | M | 3hrs| 0hrs | 0hrs |
-| Setting up API function | H | 2hrs| 0hrs | 0hrs |
+| Setting up API function | H | 5hrs| 0hrs | 0hrs |
 | Incorporating the user input and API call | H | 2hrs| 0hrs | 0hrs |
 | Debugging of the user input/API call | H | 1hrs| 0hrs | 0hrs |
 | Style header and search bar | L | 3hrs| 0hrs | 0hrs |
 | Pulling data and creating variables from API | H | 3hrs| 0hrs | 0hrs |
 | DOM manipulation to show the different matches from the users search results | H | 4hrs| 0hrs | 0hrs |
 | styling of team information from search results | H | 3hrs| 0hrs | 0hrs |
-| styling of player information from search results | L | 3hrs| 0hrs | 0hrs |
-| JS logic for best goals for each team | L | 4hrs| 0hrs | 0hrs |
-| CSS styling for the video clips | L | 6hrs| 0hrs | 0hrs |
-| Create the ability to save favorite team | L | 4hrs| 0hrs | 0hrs |
-| CSS style of the save feature | L | 3hrs| 0hrs | 0hrs |
-| Total | H | 41hrs| 0hrs | 0hrs |
+| Total | H | 38-41hrs| 0hrs | 0hrs |
 
 ## Code Snippet
 
