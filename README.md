@@ -9,40 +9,62 @@
 Allows user to search match days to find all world cup games on thhat day. Lets user look atr specific teams and see their stats for each game. User can also find the different players and show their stats. 
 
 ## API and Data Sample
-[World Cup](https://world-cup-json-2018.herokuapp.com/matches)
+[World Cup](https://raw.githubusercontent.com/openfootball/worldcup.json/master/2018/worldcup.json)
 
 ```Json 
-"stage_name": "First stage",
-"home_team_country": "Russia",
-"away_team_country": "Saudi Arabia",
-"datetime": "2018-06-14T15:00:00Z",
-"winner": "Russia",
-"winner_code": "RUS",
-"home_team": {
-"country": "Russia",
-"code": "RUS",
-"goals": 5,
-"penalties": 0
-},
-"away_team": {
-"country": "Saudi Arabia",
-"code": "KSA",
-"goals": 0,
-"penalties": 0
-},
-"home_team_events": [
 {
-"id": 5,
-"type_of_event": "goal",
-"player": "Iury GAZINSKY",
-"time": "12'"
-},
-{
-"id": 1,
-"type_of_event": "substitution-in",
-"player": "Denis CHERYSHEV",
-"time": "24'"
-}
+  "name": "World Cup 2018",
+  "rounds": [
+    {
+      "name": "Matchday 1",
+      "matches": [
+        {
+          "num": 1,
+          "date": "2018-06-14",
+          "time": "18:00",
+          "team1": { "name": "Russia",       "code": "RUS" },
+          "team2": { "name": "Saudi Arabia", "code": "KSA" },
+          "score1":  5,
+          "score2":  0,
+          "score1i": 2,
+          "score2i": 0,
+          "goals1": [
+            { "name": "Gazinsky",   "minute": 12,              "score1": 1, "score2": 0 },
+            { "name": "Cheryshev",  "minute": 43,              "score1": 2, "score2": 0 },
+            { "name": "Dzyuba",     "minute": 71,              "score1": 3, "score2": 0 },
+            { "name": "Cheryshev",  "minute": 90, "offset": 1, "score1": 4, "score2": 0 },
+            { "name": "Golovin",    "minute": 90, "offset": 4, "score1": 5, "score2": 0 }
+          ],
+          "goals2": [],
+          "group": "Group A",
+          "stadium": { "key": "luzhniki", "name": "Luzhniki Stadium" },
+          "city": "Moscow",
+          "timezone": "UTC+3"
+        }
+      ]
+    },
+    {
+      "name": "Matchday 2",
+      "matches": [
+        {
+          "num": 2,
+          "date": "2018-06-15",
+          "time": "17:00",
+          "team1": { "name": "Egypt",   "code": "EGY" },
+          "team2": { "name": "Uruguay", "code": "URU" },
+          "score1":  0,
+          "score2":  1,
+          "score1i": 0,
+          "score2i": 0,
+          "goals1": [],
+          "goals2": [
+            { "name": "Giménez",  "minute": 89,  "score1": 0, "score2": 1 }
+          ],
+          "group": "Group A",
+          "stadium": { "key": "ekaterinburg", "name": "Ekaterinburg Arena" },          
+          "city": "Ekaterinburg",
+          "timezone": "UTC+5"
+        },
  ```
 ## Wireframes
 
@@ -56,10 +78,10 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP
 
-- Take user input from search bar and get specific match day
+- Take user input from search bar and get matches for that day/round
 - call and use information from the api
 - Show the user the games of the match day they chose and the scores
-- shows the stats of the game the user selects
+- shows the stats of the game
 - responsive CSS
 
 #### PostMVP  
@@ -78,8 +100,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Dec 13| Project Approval | Incomplete
+|Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Completed
+|Dec 13| Project Approval | Completed
 |Dec 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Dec 14| Pseudocode / actual code | Incomplete
 |Dec 15| Initial Clickable Model  | Incomplete
@@ -94,19 +116,14 @@ You are **responsible** for scheduling time with your squad to seek approval for
  Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Basic HTML, CSS, JS setup | M | 3hrs| 0hrs | 0hrs |
-| Setting up API function | H | 2hrs| 0hrs | 0hrs |
+| Setting up API function | H | 5hrs| 0hrs | 0hrs |
 | Incorporating the user input and API call | H | 2hrs| 0hrs | 0hrs |
 | Debugging of the user input/API call | H | 1hrs| 0hrs | 0hrs |
 | Style header and search bar | L | 3hrs| 0hrs | 0hrs |
 | Pulling data and creating variables from API | H | 3hrs| 0hrs | 0hrs |
 | DOM manipulation to show the different matches from the users search results | H | 4hrs| 0hrs | 0hrs |
 | styling of team information from search results | H | 3hrs| 0hrs | 0hrs |
-| styling of player information from search results | L | 3hrs| 0hrs | 0hrs |
-| JS logic for best goals for each team | L | 4hrs| 0hrs | 0hrs |
-| CSS styling for the video clips | L | 6hrs| 0hrs | 0hrs |
-| Create the ability to save favorite team | L | 4hrs| 0hrs | 0hrs |
-| CSS style of the save feature | L | 3hrs| 0hrs | 0hrs |
-| Total | H | 41hrs| 0hrs | 0hrs |
+| Total | H | 38-41hrs| 0hrs | 0hrs |
 
 ## Code Snippet
 
