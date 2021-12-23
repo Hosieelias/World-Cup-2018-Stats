@@ -2,7 +2,7 @@
 
 ## Project Name
 
-[World Cup 2018 Stats](https://github.com/Hosieelias/World-Cup-2018-Stats)
+[World Cup 2018 Stats](https://hosieelias.github.io/World-Cup-2018-Stats/?)
 
 ## Project Description
 
