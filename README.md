@@ -78,10 +78,10 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP
 
-- Take user input from search bar and get matches for that day/round
+- Take user input from clickdown bar and get the matchday games
 - call and use information from the api
 - Show the user the games of the match day they chose and the scores
-- shows the stats of the game
+- shows teams that played
 - responsive CSS
 
 #### PostMVP  
@@ -102,10 +102,10 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Dec 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Completed
 |Dec 13| Project Approval | Completed
-|Dec 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Dec 14| Pseudocode / actual code | Incomplete
-|Dec 15| Initial Clickable Model  | Incomplete
-|Dec 16| MVP | Incomplete
+|Dec 13| Core Application Structure (HTML, CSS, etc.) | completed
+|Dec 14| Pseudocode / actual code | completed
+|Dec 15| Initial Clickable Model  | completed
+|Dec 16| MVP | completed
 |Dec 17| Presentations | Incomplete
 
 ## Priority Matrix
@@ -115,24 +115,35 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
  Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Basic HTML, CSS, JS setup | M | 3hrs| 0hrs | 0hrs |
-| Setting up API function | H | 5hrs| 0hrs | 0hrs |
-| Incorporating the user input and API call | H | 2hrs| 0hrs | 0hrs |
-| Debugging of the user input/API call | H | 1hrs| 0hrs | 0hrs |
-| Style header and search bar | L | 3hrs| 0hrs | 0hrs |
-| Pulling data and creating variables from API | H | 3hrs| 0hrs | 0hrs |
-| DOM manipulation to show the different matches from the users search results | H | 4hrs| 0hrs | 0hrs |
-| styling of team information from search results | H | 3hrs| 0hrs | 0hrs |
-| Total | H | 38-41hrs| 0hrs | 0hrs |
+| Basic HTML, CSS, JS setup | M | 3hrs| 3hrs | 3hrs |
+| Setting up API function | H | 5hrs| 6hrs | 6hrs |
+| Incorporating the user input and API call | H | 2hrs| 5hrs | 5hrs |
+| Debugging of the user input/API call | H | 1hrs| 3hrs | 3hrs |
+| Style header and search bar | L | 3hrs| 2hrs | 2hrs |
+| Pulling data and creating variables from API | H | 3hrs| 3hrs | 3hrs |
+| DOM manipulation to show the different matches from the users search results | H | 4hrs| 5hrs | 5hrs |
+| Total | H | 38-41hrs| 35-40hrs | 35-40hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+let h2 = document.createElement('h2');
+    h2.innerText = selectedRound.matches[0].team1.name;
+    divMatch.appendChild(h2)
+
+        let p = document.createElement('p')
+    p.innerText = selectedRound.matches[0].score1 + "-" + selectedRound.matches[0].score2
+    divMatch.appendChild(p);
+
+    // let p1 = document.createElement('p')
+    // 
+    // divMatch.appendChild(p1);
+     
+    let h3 = document.createElement('h3');
+    h3.innerText = selectedRound.matches[0].team2.name;
+    divMatch.appendChild(h3)
 ```
 
 ## Change Log
